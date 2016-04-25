@@ -1,0 +1,29 @@
+@import "bootstrap";
+h1, li, p, figure, html{
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+  border-radius: 0px;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.white-text{
+  color: ghostwhite;
+}
+.title{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  font-size: 14vh;
+}
+.subtitle{
+  position: absolute;
+  top: 41%;
+  left: 24%;
+  font-size: 3vh;
+}
+body{
+  max-height: 100vh;
+  overflow: hidden;
+}

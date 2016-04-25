@@ -1,0 +1,30 @@
+<h2>New Song</h2>
+
+<p>
+  <label for="title">Title</label><br>
+  {{input value=model.title id="title"}}
+</p>
+
+<p>
+  <label for="artist">Artist</label><br>
+  {{input value=model.artist id="artist"}}
+</p>
+
+<p>
+  <label for="album">Album</label><br>
+  {{input value=model.album id="album"}}
+</p>
+
+<p>
+  <label for="songurl">Upload MP3</label><br>
+  {{input value=model.songurl id="songurl"}}
+</p>
+
+<p>
+  <label for="art">Upload Image</label><br>
+  {{input value=model.art id="art"}}
+</p>
+
+
+
+<button {{action 'save'}} class="save">Save</button>
